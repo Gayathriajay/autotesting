@@ -21,8 +21,8 @@ public class Alllinksfb {
 
 	 List<WebElement> alllinks = driver.findElements(By.tagName("a"));
 	
-	int si = alllinks.size();
-	System.out.println(si);
+	int add= alllinks.size();
+	System.out.println(add);
 	
 	for (WebElement links : alllinks) {
 		String attribute = links.getAttribute("href");

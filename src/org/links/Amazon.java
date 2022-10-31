@@ -23,7 +23,7 @@ WebElement txt = driver.findElement(By.xpath("(//span[@class='a-size-medium a-co
 		
 	WebElement price = driver.findElement(By.xpath("(//div//descendant::span[@class='a-price-whole'])[1]"));
 		System.out.println(price.getText());
-		System.out.println("****");
+		System.out.println("*******");
 		
 		WebElement delvry = driver.findElement(By.xpath
 ("(//div[@class='a-section a-spacing-none a-spacing-top-micro']//child::span//"
